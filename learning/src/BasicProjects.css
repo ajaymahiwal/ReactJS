@@ -1,0 +1,11 @@
+
+.box{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    background-color: black;
+}
+
+li{
+    list-style-position: inside;
+}

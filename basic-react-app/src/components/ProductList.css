@@ -1,0 +1,16 @@
+
+
+.ProductList-inner{
+    text-align: center;
+    display: flex;
+    gap: 2rem;
+}
+.ProductList{
+    text-align: center;
+}
+li{
+    text-align: left;
+}
+.bdr{
+    border: 2px solid red;
+}

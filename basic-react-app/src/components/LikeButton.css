@@ -1,0 +1,18 @@
+
+.heart{
+    background-color:yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px 0 10px;
+    font-size: 5rem;
+    text-align: center;
+    cursor: pointer;
+}
+.clicked{
+    background-color:rgb(250, 15, 11);
+}
+.heart-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+}
