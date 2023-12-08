@@ -1,6 +1,6 @@
 import './App.css'
 import { HelloWorld,Counter,ToggleSwitch,UserList } from './BasicProjects'
-
+import ExampleComponent from './Example'
 
 function App() {
 
@@ -9,7 +9,8 @@ function App() {
         {/* <HelloWorld title="Hello World !"/> */}
         {/* <Counter/> */}
         {/* <ToggleSwitch/> */}
-        <UserList></UserList>
+        {/* <UserList></UserList> */}
+        <ExampleComponent></ExampleComponent>
     </>
   )
 }

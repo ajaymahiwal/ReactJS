@@ -1,13 +1,8 @@
-body{
-  /* background-color: black; */
-  /* color: white; */
-}
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  /* background-color: rgba(0, 0, 0, 0.452); */
 }
 
 .logo {

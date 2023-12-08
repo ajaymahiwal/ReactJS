@@ -5,10 +5,11 @@ import { useState } from 'react';
 
 export function Lottery({n=3,isWinningCond}){
     const[ticket,setTicket] = useState(getTicket(n));
-    const isWin = isWinningCond(ticket);
+    let isWin = isWinningCond(ticket);
 
     const buyTicket = ()=>{
         console.log("Buying !");
+        isWin = false;
         setTicket(getTicket(n));
     }
 

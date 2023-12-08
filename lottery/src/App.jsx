@@ -2,6 +2,7 @@
 import './App.css';
 import {sum} from'./helper.js';
 import { Lottery } from './Lottery.jsx';
+import ExampleComponent from './Example.jsx';
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
 
   return (
     <>
-      <Lottery n={n} isWinningCond={isWinning}/>
+      {/* <Lottery n={n} isWinningCond={isWinning}/> */}
+      <ExampleComponent></ExampleComponent>
     </>
   )
 }
